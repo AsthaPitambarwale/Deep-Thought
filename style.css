@@ -235,6 +235,9 @@ body {
     margin-top: 10px;
 }
 
+.heading .btn:hover{
+    background-color: #003772;
+}
 /* Grey Box */
 .grey-box {
     margin: 10px 200px;
@@ -362,7 +365,7 @@ body {
 
 .thread-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     background: #fdf7d8;
     padding: 0.5rem;
