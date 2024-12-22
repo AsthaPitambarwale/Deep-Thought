@@ -544,3 +544,208 @@ select {
 .secondary-nav a:hover {
     transform: scale(1.1);
 }
+
+/* Additional Responsive Styles */
+
+/* Tiny Devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .navigation {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 15px;
+    }
+
+    .navigation h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .right-nav {
+        gap: 8px;
+        justify-content: flex-start;
+    }
+
+    .right-nav a {
+        width: 35px;
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .journey-board {
+        width: 100%;
+        margin: 0;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 5px;
+    }
+
+    .journey-board ul li {
+        margin: 0;
+    }
+
+    .journey-board ul li a {
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+
+    .card-layout {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .card img {
+        height: 150px;
+    }
+
+    .card-content h3 {
+        font-size: 18px;
+    }
+
+    .card-content p {
+        font-size: 12px;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+}
+
+/* Small Devices (max-width: 768px) */
+@media (max-width: 768px) {
+    .navigation {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px 20px;
+    }
+
+    .navigation h1 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .right-nav {
+        justify-content: flex-start;
+        gap: 15px;
+    }
+
+    .right-nav a {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .journey-board {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px;
+        margin: 0 0 10px 0;
+    }
+
+    .journey-board ul {
+        display: flex;
+        gap: 10px;
+    }
+
+    .journey-board ul li {
+        margin: 0;
+    }
+
+    .card-layout {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        margin-left: 0;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .card img {
+        height: 180px;
+    }
+
+    .card-content h3 {
+        font-size: 20px;
+    }
+
+    .card-content p {
+        font-size: 14px;
+    }
+
+    .footer {
+        font-size: 14px;
+    }
+}
+
+/* Medium Devices (max-width: 992px) */
+@media (max-width: 992px) {
+    .navigation {
+        padding: 15px 25px;
+    }
+
+    .navigation h1 {
+        font-size: 24px;
+    }
+
+    .right-nav a {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .journey-board {
+        width: 180px;
+    }
+
+    .card-layout {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+    }
+
+    .card img {
+        height: 200px;
+    }
+
+    .card-content h3 {
+        font-size: 22px;
+    }
+
+    .card-content p {
+        font-size: 16px;
+    }
+}
+
+/* Large Devices (max-width: 1200px) */
+@media (max-width: 1200px) {
+    .card-layout {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+
+/* General Adjustments */
+.card-layout {
+    gap: 25px;
+}
+
+.journey-board ul {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 15px;
+}
+
+.journey-board ul li a {
+    transition: transform 0.2s ease;
+}
+
+.journey-board ul li a:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
