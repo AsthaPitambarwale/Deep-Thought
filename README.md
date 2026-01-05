@@ -2,7 +2,7 @@
 
 # Deep-Thought
 **Deep-Thought** is a web application developed by AsthaPitambarwale.  
-This repository contains HTML, JavaScript, and CSS source files which power a front-end web app, likely hosted at: https://deep-thought-delta.vercel.app :contentReference[oaicite:1]{index=1}
+This repository contains HTML, JavaScript, and CSS source files which power a front-end web app.
 
 ## 🚀 Live Demo
 
