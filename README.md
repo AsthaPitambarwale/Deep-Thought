@@ -1,15 +1,12 @@
 ## 📘 README.md for **Deep-Thought**
 
-```markdown
 # Deep-Thought
-
 **Deep-Thought** is a web application developed by AsthaPitambarwale.  
 This repository contains HTML, JavaScript, and CSS source files which power a front-end web app, likely hosted at: https://deep-thought-delta.vercel.app :contentReference[oaicite:1]{index=1}
 
 ## 🚀 Live Demo
 
 👉 **Live Link:** https://deep-thought-delta.vercel.app/
-
 
 ## 📁 Repository Structure
 
@@ -57,10 +54,10 @@ This project appears to be a **static web app**, so it does *not* require a back
 
 ## 🧠 How It Works
 
-* **index.html** — App structure and layout
-* **style.css** — Page styles
-* **script.js / js.js / javascriptJSON.js** — Main interaction and logic scripts
-* **images/** — UI graphics and assets
+**index.html** — App structure and layout
+**style.css** — Page styles
+**script.js / js.js / javascriptJSON.js** — Main interaction and logic scripts
+**images/** — UI graphics and assets
 
 
-[1]: https://github.com/AsthaPitambarwale/Deep-Thought "GitHub - AsthaPitambarwale/Deep-Thought"
+https://github.com/AsthaPitambarwale/Deep-Thought "GitHub - AsthaPitambarwale/Deep-Thought"
