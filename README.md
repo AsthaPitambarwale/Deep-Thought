@@ -20,7 +20,6 @@ Deep-Thought/
 ├── style.css                 # Styling for the web app
 ├── taskloder.js              # Script for loading tasks or resources
 └── README.md (this file)
-
 ````
 
 ## 🛠️ Running Locally
@@ -32,7 +31,7 @@ To run this project locally:
    ```bash
    git clone https://github.com/AsthaPitambarwale/Deep-Thought.git
    cd Deep-Thought
-````
+   ```
 
 2. **Open `index.html` in your browser**
 
